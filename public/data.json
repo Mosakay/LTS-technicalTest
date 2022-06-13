@@ -1,0 +1,52 @@
+{
+	"data": [
+		{
+			"name": "5* hotel Tenerife", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel London", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel Madrid", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel Paris", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel Berlin", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		},
+		{
+			"name": "5* hotel Bucharest", 
+			"price": {
+				"unit": "pp",
+				"value": 498.5
+			},
+			"description": "This is a fantastic package for a 9 day stay at a premium hotel."
+		}
+	]
+}
