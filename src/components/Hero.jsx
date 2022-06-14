@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.scss";
 import { images } from "../constants";
+import { AiFillCaretDown } from "react-icons/ai";
+
 
 const Hero = () => {
   return (
@@ -12,12 +14,15 @@ const Hero = () => {
         <div className="search">
           <form action="">
             <div className="inputBox">
+              <AiFillCaretDown className="icon" />
               <input type="text" placeholder="Location" />
             </div>
             <div className="inputBox">
+            <AiFillCaretDown className="icon" />
               <input type="text" placeholder="Departure Airport" />
             </div>
             <div className="inputBox">
+            <AiFillCaretDown className="icon" />
               <input type="text" placeholder="Arrival Airport" />
             </div>
 
@@ -34,6 +39,7 @@ const Hero = () => {
                 }}
                 className="inputBox"
               >
+                
                 <input
                   type="text"
                   placeholder="Departure Date"
@@ -48,6 +54,7 @@ const Hero = () => {
                 }}
                 className="inputBox"
               >
+                
                 <input
                   type="text"
                   placeholder="Arrival Date"
@@ -71,6 +78,7 @@ const Hero = () => {
                 }}
                 className="inputBox"
               >
+                
                 <input type="number" placeholder="Adult Passengers" />
               </div>
               <div
@@ -79,6 +87,7 @@ const Hero = () => {
                 }}
                 className="inputBox"
               >
+                
                 <input type="number" placeholder="Child Passengers (0-16)" />
               </div>
             </div>

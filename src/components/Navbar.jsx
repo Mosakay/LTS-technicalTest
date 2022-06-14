@@ -4,33 +4,10 @@ import { motion } from 'framer-motion';
 import './Navbar.scss'
 import { images } from "../constants";
 
-const Navbar = ({data, wordEntered, handleFilter, clearInput}) => {
+const Navbar = ({ wordEntered, handleFilter, clearInput}) => {
 
   const [toggle, setToggle] = useState(false);
 
-  // const [filteredData, setFilteredData] = useState([]);
-  // const [wordEntered, setWordEntered] = useState("");
-
-  // const handleFilter = (event) => {
-  //   const searchWord = event.target.value;
-  //   setWordEntered(searchWord);
-  //   const newFilter = data.data?.filter((value) => {
-  //     return value.name.toLowerCase().includes(searchWord.toLowerCase());
-  //   });
-
-  //   if (searchWord === "") {
-  //     setFilteredData([]);
-  //   } else {
-  //     setFilteredData(newFilter);
-  //   }
-  // };
-
-  // const clearInput = () => {
-  //   setFilteredData([]);
-  //   setWordEntered("");
-  // };
-
- 
 
   return (
     <nav className="app__navbar">

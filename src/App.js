@@ -13,7 +13,7 @@ const App = () => {
   
     const config = {
       method: 'get',
-      url: 'http://localhost:3000/data.json',
+      url: 'http://localhost:3000//data.json',
       // toJSON: true,
     };
     axios(config)
